@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>github连接浏览器报错修复</h1>
+<h1>codex连接浏览器报错修复(nodeRepl.fetch-request-failed)</h1>
 
 <b>Windows · Codex · Chrome</b><br>
 <code>nodeRepl.fetch request failed</code><br>
