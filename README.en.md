@@ -1,6 +1,33 @@
-# Fixing Codex Chrome control on Windows: nodeRepl.fetch request failed
+<div align="center">
 
-[中文教程](README.md) · [Copyable agent prompts](AGENT_PROMPTS.md)
+<h1>Codex Browser Connection Fix</h1>
+
+<b>Windows · Codex · Chrome</b><br>
+<code>nodeRepl.fetch request failed</code><br>
+Diagnose the route · Verify your proxy · Repair the launcher · Prove real browser control
+
+[简体中文](./README.md) | **English**
+
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/stargazers"><img src="https://img.shields.io/github/stars/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Stars&color=06d6a0" alt="Stars"></a>
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/forks"><img src="https://img.shields.io/github/forks/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Forks&color=4cc9f0" alt="Forks"></a>
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/issues"><img src="https://img.shields.io/github/issues/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Issues&color=ffd166" alt="Issues"></a>
+<img src="https://img.shields.io/github/last-commit/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Updated&color=ff4d6d" alt="Last update">
+
+<br>
+
+<img src="https://img.shields.io/badge/Platform-Windows-0078d4?style=flat-square" alt="Windows">
+<img src="https://img.shields.io/badge/Browser-Chrome-4285f4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome">
+<img src="https://img.shields.io/badge/Bundled_Node-24.21.0-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Tested bundled Node 24.21.0">
+<img src="https://img.shields.io/badge/Docs-中文_%2F_English-8b5cf6?style=flat-square" alt="Chinese and English">
+
+<br><br>
+
+<a href="./AGENT_PROMPTS.md">Copy the agent prompt</a> · <a href="./scripts/network-probe.mjs">Token-free network probe</a>
+
+</div>
+
+---
+
 
 **A verified local repair:** Chrome discovery worked, but listing tabs failed after approximately 21 seconds. Direct and proxy comparisons justified adding proxy environment settings to the actual browser-control child launcher. After a full restart, real Chrome tab listing, navigation, and page-content reading succeeded.
 
@@ -190,3 +217,7 @@ These variables come from step 5 and must be saved in your local repair record. 
 References: [community issue #44364](https://github.com/openai/codex/issues/44364), [Node proxy documentation](https://nodejs.org/learn/http/enterprise-network-configuration), [OpenAI browser extension documentation](https://learn.chatgpt.com/docs/chrome-extension).
 
 Prepared on 2026-10-02. Usernames, personal paths, runtime-directory identifiers, tokens, and personal tab contents are omitted. This procedure does not change system proxy, TUN, firewall, certificate validation, or approval controls. If the route comparison does not support this diagnosis, do not apply this workaround.
+
+<div align="center">
+<sub>[简体中文](./README.md) | <b>English</b></sub>
+</div>
