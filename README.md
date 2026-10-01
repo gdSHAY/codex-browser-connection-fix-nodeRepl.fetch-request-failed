@@ -1,6 +1,33 @@
-# github连接浏览器报错修复（nodeRepl.fetch request failed）
+<div align="center">
 
-[English tutorial](README.en.md) · [中英双语 Agent 提示词 / Agent prompts](AGENT_PROMPTS.md)
+<h1>github连接浏览器报错修复</h1>
+
+<b>Windows · Codex · Chrome</b><br>
+<code>nodeRepl.fetch request failed</code><br>
+定位故障 · 验证代理 · 最小修复 · 真实浏览器验收
+
+**简体中文** | [English](./README.en.md)
+
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/stargazers"><img src="https://img.shields.io/github/stars/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Stars&color=06d6a0" alt="Stars"></a>
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/forks"><img src="https://img.shields.io/github/forks/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Forks&color=4cc9f0" alt="Forks"></a>
+<a href="https://github.com/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed/issues"><img src="https://img.shields.io/github/issues/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Issues&color=ffd166" alt="Issues"></a>
+<img src="https://img.shields.io/github/last-commit/gdSHAY/github-browser-connection-fix-nodeRepl.fetch-request-failed?style=flat-square&label=Updated&color=ff4d6d" alt="Last update">
+
+<br>
+
+<img src="https://img.shields.io/badge/Platform-Windows-0078d4?style=flat-square" alt="Windows">
+<img src="https://img.shields.io/badge/Browser-Chrome-4285f4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome">
+<img src="https://img.shields.io/badge/Bundled_Node-24.21.0-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Tested bundled Node 24.21.0">
+<img src="https://img.shields.io/badge/Docs-中文_%2F_English-8b5cf6?style=flat-square" alt="Chinese and English">
+
+<br><br>
+
+<a href="./AGENT_PROMPTS.md">复制 Agent 提示词</a> · <a href="./scripts/network-probe.mjs">无令牌网络诊断</a>
+
+</div>
+
+---
+
 
 **本教程记录一次 Windows 上 Codex 控制 Chrome 的实际成功修复：发现浏览器正常，但标签页列表约 21 秒后失败；经过网络对照，给当前浏览器控制子进程补齐代理环境，完全重启后真实读取标签页和页面正文成功。**
 
@@ -204,3 +231,7 @@ if ((Get-FileHash -LiteralPath $backupPath).Hash -ne $originalHash) {
 - [OpenAI 浏览器扩展说明](https://learn.chatgpt.com/docs/chrome-extension)。
 
 教程整理于 2026-10-02。个人用户名、完整本机路径、运行时目录标识和标签页内容均未公开。不会改变系统代理、TUN、防火墙、证书校验或审批逻辑。若代理比较不支持此诊断，就不要套用本修复。
+
+<div align="center">
+<sub><b>简体中文</b> | [English](./README.en.md)</sub>
+</div>
