@@ -219,5 +219,5 @@ References: [community issue #44364](https://github.com/openai/codex/issues/4436
 Prepared on 2026-10-02. Usernames, personal paths, runtime-directory identifiers, tokens, and personal tab contents are omitted. This procedure does not change system proxy, TUN, firewall, certificate validation, or approval controls. If the route comparison does not support this diagnosis, do not apply this workaround.
 
 <div align="center">
-<sub>[简体中文](./README.md) | <b>English</b></sub>
+<sub><a href="./README.md">简体中文</a> | <b>English</b></sub>
 </div>
