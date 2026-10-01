@@ -233,5 +233,5 @@ if ((Get-FileHash -LiteralPath $backupPath).Hash -ne $originalHash) {
 教程整理于 2026-10-02。个人用户名、完整本机路径、运行时目录标识和标签页内容均未公开。不会改变系统代理、TUN、防火墙、证书校验或审批逻辑。若代理比较不支持此诊断，就不要套用本修复。
 
 <div align="center">
-<sub><b>简体中文</b> | [English](./README.en.md)</sub>
+<sub><b>简体中文</b> | <a href="./README.en.md">English</a></sub>
 </div>
