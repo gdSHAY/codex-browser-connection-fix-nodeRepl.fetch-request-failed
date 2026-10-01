@@ -164,7 +164,7 @@ $patchedHash = (Get-FileHash -LiteralPath $launcherPath -Algorithm SHA256).Hash
 本次重启后的结果：
 
 - 标签页列表成功返回 22 项，约 0.4 秒；没有输出个人标题和 URL。
-- 在真实 Chrome 打开 https://example.com/，约 8.2 秒返回 Example Domain。
+- 在真实 Chrome 打开 [https://example.com/](https://example.com/)，约 8.2 秒返回 Example Domain。
 - 完整快照读到文档示例说明及 Learn more 链接。
 - 测试标签页关闭，原有标签页保留；补丁和备份校验通过。
 
